@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class DownloadPage extends StatelessWidget {
   const DownloadPage({super.key});
@@ -97,7 +96,7 @@ class MyDownloadingSection extends StatelessWidget {
           Container(
             height: 150,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 41, 40, 43),
+              color: const Color.fromARGB(255, 41, 40, 43),
               borderRadius: BorderRadius.circular(20),
             ),
             child: Row(
@@ -187,7 +186,7 @@ class MyDownloadingSection extends StatelessWidget {
                             const SizedBox(width: 10),
                             IconButton(
                               onPressed: () {},
-                              icon: Icon(Icons.pause_circle_outline),
+                              icon: const Icon(Icons.pause_circle_outline),
                               color: Colors.grey,
                             ),
                             PopupMenuButton(
@@ -220,7 +219,7 @@ class MyDownloadingSection extends StatelessWidget {
                                 print('Selected: $value');
                               },
                               offset: const Offset(0, 50),
-                              child: Icon(
+                              child: const Icon(
                                 CupertinoIcons.ellipsis_vertical,
                                 size: 20,
                                 color: Colors.grey,

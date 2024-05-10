@@ -28,7 +28,7 @@ class MyBottomNavigation extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(),
+                        builder: (context) => const HomePage(),
                       ),
                     );
                   },
@@ -53,7 +53,7 @@ class MyBottomNavigation extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => SecondPage(),
+                        builder: (context) => const SecondPage(),
                       ),
                     );
                   },
@@ -69,7 +69,7 @@ class MyBottomNavigation extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => DownloadPage(),
+                        builder: (context) => const DownloadPage(),
                       ),
                     );
                   },
