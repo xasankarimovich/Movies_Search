@@ -297,7 +297,6 @@ class _CallOperatorState extends State<CallOperator> {
     );
   }
 }
-
 class ButtonRow extends StatefulWidget {
   final List<Widget> children;
 
@@ -306,7 +305,6 @@ class ButtonRow extends StatefulWidget {
   @override
   State<ButtonRow> createState() => _ButtonRowState();
 }
-
 class _ButtonRowState extends State<ButtonRow> {
   @override
   Widget build(BuildContext context) {
